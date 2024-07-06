@@ -1,0 +1,10 @@
+{
+    "apiEndpoints": [
+        "http://localhost:3001/fast",
+        "http://localhost:3001/slow",
+        "http://localhost:3002/fast",
+        "http://localhost:3002/slow"
+    ],
+    "loadBalancerPort": 4000,
+    "queueManagerPort": 4001
+}

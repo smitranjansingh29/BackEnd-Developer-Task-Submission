@@ -1,0 +1,18 @@
+{
+    "name": "wasserstoff-backend-task",
+    "version": "1.0.0",
+    "description": "Intelligent Load Balancer for Multi-API Management",
+    "main": "src/loadBalancer/index.js",
+    "scripts": {
+        "start": "node src/loadBalancer/index.js",
+        "start-mockApis": "node mockApis/mockApis.js",
+        "start-queueManager": "node src/queueManager/index.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "express": "^4.17.1",
+        "winston": "^3.3.3"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+}
